@@ -72,6 +72,10 @@ pre {
     align-items: center;
 }
 
+code {
+    padding: 1em;
+}
+
 .highlight-circle {
     display: inline-block;
     height: 20px;
