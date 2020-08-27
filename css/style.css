@@ -164,6 +164,10 @@ header {
   color: #A52F23;
 }
 
+.img-med {
+  max-width: 500px;
+}
+
 /* MAIN STYLES */
 .section {
   margin-bottom: 1.5em;
@@ -195,16 +199,25 @@ aside h2 {
     margin-top: 1em;
 }
 
+.hide {
+  display: none;
+}
+
+.reveal-text:hover + .hide {
+  display: block;
+  animation: fade-in .5s ease-in-out;
+}
+
 .fade-1 {
   animation: fade-in 6.5s ease-in-out infinite;
   opacity: 0;
 }
 .fade-2 {
-  animation: fade-in 6.5s 4s ease-in-out infinite;
+  animation: fade-in 6.5s ease-in-out infinite;
   opacity: 0;
 }
 .fade-3 {
-  animation: fade-in 6.5s 8s ease-in-out infinite;
+  animation: fade-in 6.5s ease-in-out infinite;
   opacity: 0;
 }
 .fade-4 {
@@ -218,11 +231,6 @@ aside h2 {
 .fade-6 {
   animation: fade-in 6.5s 14s ease-in-out infinite;
   opacity: 0;
-}
-
-/* TAKE HOME */
-.take-home ul li a {
-    font-weight: bold;
 }
 
 /* ANIMATIONS */
