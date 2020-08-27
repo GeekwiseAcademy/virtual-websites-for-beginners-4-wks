@@ -199,11 +199,11 @@ aside h2 {
     margin-top: 1em;
 }
 
-.hide {
+.hide-answer {
   display: none;
 }
 
-.reveal-text:hover + .hide {
+.reveal-text:hover + .hide-answer {
   display: block;
   animation: fade-in .5s ease-in-out;
 }
