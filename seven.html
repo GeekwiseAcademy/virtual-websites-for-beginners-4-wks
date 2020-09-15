@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Websites for Beginners - Day Five</title>
+    <title>Websites for Beginners - Day Seven</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -31,9 +31,9 @@
               <li><a class="dropdown-item" href="two.html">Day Two</a></li>
               <li><a class="dropdown-item" href="three.html">Day Three</a></li>
               <li><a class="dropdown-item" href="four.html">Day Four</a></li>
-              <li><a class="dropdown-item active" href="five.html">Day Five</a></li>
+              <li><a class="dropdown-item" href="five.html">Day Five</a></li>
               <li><a class="dropdown-item" href="six.html">Day Six</a></li>
-              <li><a class="dropdown-item" href="seven.html">Day Seven</a></li>
+              <li><a class="dropdown-item active" href="seven.html">Day Seven</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="final.html">Final Project</a></li>
             </ul>
@@ -46,7 +46,7 @@
   <div class="container padtop3">
     <div class="row">
       <div class="col text-center">
-        <h1>Day 5</h1>
+        <h1>Day 7</h1>
       </div>
     </div>
 
@@ -57,11 +57,11 @@
       <main class="col-9">
         <ul class="points">
           <li>Take Home Review</li>
-          <li>SEO</li>
-          <li>Accessibility</li>
-          <li>HTML Semantic Elements</li>
+          <li>Git vs GitHub</li>
+          <li>SSH Protocol</li>
           <li>Daily Challenge</li>
-          <li>CSS Shorthand Properties</li>
+          <li>Github Repositories</li>
+          <li>Intro to Git Commands</li>
           <li>Take Home Challenge</li>
         </ul>
       </main>
@@ -80,38 +80,48 @@
 
     <div class="row section">
       <aside class="col">
-        <h2>SEO</h2>
+        <h2>Git vs GitHub</h2>
       </aside>
       <main class="col-9">
         <ul class="points">
-          <li><a href="https://moz.com/beginners-guide-to-seo/why-search-engine-marketing-is-necessary" target="_blank">Search Engine Optimization</a></li>
-          <li><a href="https://neilpatel.com/blog/html-tags-for-seo/" target="_blank">HTML tags for SEO</a></li>
-        </ul>
-      </main>
-    </div>
-
-    <div class="row section">
-      <aside class="col">
-        <h2>Acessibility</h2>
-      </aside>
-      <main class="col-9">
-        <ul class="points">
-          <li><a href="https://www.w3schools.com/html/html_accessibility.asp" target="_blank">HTML Guide to Accessibilty</a></li>
-          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank">Web Content Accessibilty Guidelines</a></li>
+          <li><a href="https://docs.microsoft.com/en-us/azure/devops/learn/git/what-is-git" target="_blank">What is Git?</a></li>
           <ul class="nested-points">
-            <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/glance/" target="_blank">Cheat Sheet</a></li>
+            <li><code>Git</code> is a Version Control System (VCS) installed on your computer that you can access through your terminal</li>
           </ul>
+          <ul class="nested-points">
+            <li><a href="https://git-scm.com/downloads" target="_blank">Download Git and Git Bash</a></li>
+            <img src="img/git-option.png" style="width:400px; height:300px" alt="Git Option During Installation">
+            <li><em>**Make sure you check this option</em></li>
+            <li>Basic Terminal Commands:</li>
+          <pre>
+            <code>
+    cd [folder-name]
+    cd ..
+    ls
+    ls -al (macOS)
+    dir (windows)
+            </code>
+          </pre>
+          </ul>
+          <li><a href="https://github.com" target="_blank">GitHub</a></li>
+          <ul class="nested-points">
+            <li><code>GitHub</code> is a code storage and sharing application built as a visual interface for Git. It's like Google Drive for developers.</li>
+          </ul>
+          <li><a href="https://jakeaguilar.github.io/GitHelp/" target="_blank">GitHelp</a></li>
         </ul>
       </main>
     </div>
 
     <div class="row section">
       <aside class="col">
-        <h2>HTML Semantic Elements</h2>
+        <h2>SSH Protocol</h2>
       </aside>
       <main class="col-9">
         <ul class="points">
-          <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">Semantic HTML</a></li>
+          <li><a href="https://youtu.be/Atbl7D_yPug" target="_blank">How it Works (Video)</a></li>
+          <li><a href="https://www.ssh.com/ssh/protocol/" target="_blank">Additional Reading: ssh.com</a></li>
+          <li><a href="https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank">Generating an SSH Key</a></li>
+          <li><a href="https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account" target="_blank">Adding a New SSH Key to Your Github Account</a></li>
         </ul>
       </main>
     </div>
@@ -122,34 +132,35 @@
       </aside>
       <main class="col-9">
         <ul class="points">
-          <li>Create a new project folder</li>
-          <li>Add the following:</li>
-          <ul class="nested-points">
-            <li>index file</li>
-            <li>css folder</li>
-            <li>stylesheet</li>
-            <li>image folder</li>
-          </ul>
-          <li>Reproduce this page structure: <a href="img/semantic_layout.png" target="_blank">View Layout</a></li>
-          <li>Save your work!</li>
+          <li>Follow the directions above to generate your own SSH key</li>
+          <li>Add the SSH key to your GitHub account.</li>
         </ul>
       </main>
     </div>
 
     <div class="row section">
       <aside class="col">
-        <h2>CSS Shorthand Properties</h2>
+        <h2>Github Repositories</h2>
       </aside>
       <main class="col-9">
         <ul class="points">
-          <li><a href="https://www.geeksforgeeks.org/css-shorthand-properties/" target="_blank">Shorthand vs Longhand</a></li>
-          <ul class="nested-points">
-            <li><a href="https://www.w3schools.com/cssref/pr_border.asp" target="_blank">Borders</a></li>
-            <li><a href="https://www.w3schools.com/cssref/pr_background-image.asp" target="_blank">Background Images</a></li>
-            <li><a href="https://www.w3schools.com/cssref/css3_pr_box-shadow.asp" target="_blank">Box Shadow</a></li>
-            <li><a href="https://www.w3schools.com/cssref/css3_pr_text-shadow.asp" target="_blank">Text Shadow</a></li>
-          </ul>
+          <li>Comparing GitHub to Google Drive, a repository is like a folder.</li>
+          <li><a href="https://docs.github.com/en/github/getting-started-with-github/create-a-repo" target="_blank">Creating a New Repository</a></li>
         </ul>
+      </main>
+    </div>
+
+    <div class="row section">
+      <aside class="col">
+        <h2>Intro to Git Commands</h2>
+      </aside>
+      <main class="col-9">
+        <pre>
+          <code>
+      git status
+      git clone [repo-ssh-link]
+          </code>
+        </pre>
       </main>
     </div>
 
@@ -159,14 +170,9 @@
       </aside>
       <main class="col-9">
         <ul class="points">
-          <li>Using your Daily Challenge Project, add the following properties to your page:</li>
-          <ul class="nested-points">
-            <li>Border</li>
-            <li>Background Image</li>
-            <li>Box Shadow</li>
-            <li>Text Shadow</li>
-          </ul>
-          <li>Save your work!</li>
+          <li>Create a new repository in GitHub named "github-practice"</li>
+          <li>Clone the repository using SSH</li>
+          <li><strong>BONUS: </strong>Add an index file and stylesheet to your local repository.</li>
         </ul>
       </main>
     </div>
