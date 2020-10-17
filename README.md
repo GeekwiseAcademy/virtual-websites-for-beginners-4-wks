@@ -44,11 +44,11 @@ Virtual Curriculum
         * [HTTP vs. HTTPS](https://www.botify.com/blog/what-is-a-secure-website-https-vs-http)
         * [FTP](https://www.digitaltrends.com/computing/what-is-ftp-and-how-do-i-use-it/)
         * [Browser vs. Search Engine](https://www.geeksforgeeks.org/difference-between-search-engine-and-web-browser/)
-    * _In-class Challenge_
+    * In-class Challenge
         * Create [Codepen.io](https://codepen.io/) account
         * Bookmark codepen
         * [Complete this challenge](https://codepen.io/pen/?template=eYZgVye)
-    * _Daily Challenge Review_
+    * Daily Challenge Review
         * [Keyboard Shortcuts](https://www.w3schools.com/tags/ref_keyboardshortcuts.asp)
     * HTML
         * [HTML5](http://w3schools.com/html/html_intro.asp)
@@ -117,7 +117,7 @@ Virtual Curriculum
         * [RGB](https://www.w3schools.com/colors/colors_rgb.asp) & [RGBA](https://www.w3schools.com/css/tryit.asp?filename=trycss_opacity_box2)
         * Color Resources: [colllor.com](http://colllor.com/), w3Schools [Color Picker](https://www.w3schools.com/colors/colors_picker.asp), [Color Pick Eyedropper](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en) for Windows users
     * Take Home Challenge:
-        * Stack 4 div elements of your favorite color (100px height/width) on the page using margin (use color formats, not names of colors). 
+        * Stack 4 div elements of your favorite color (100px height/width) on the page using margin (use color formats, not names of colors).
         * Bonus: make the boxes inline-block and different colors
 
 #### Week 2
@@ -140,24 +140,24 @@ Virtual Curriculum
         * Use visibility: hidden to create a checkerboard pattern with the boxes
     * Branding
         * Best & Worst Websites
-        * Good and bad examples (visual)
-        * Bad
-            * [The World's Worst Website Ever!](https://www.theworldsworstwebsiteever.com/)
-            * [Yale School of Art: Home](https://www.art.yale.edu/)
-        * Good
-            * [Awwwards - Website Awards - Best Web Design Trends](https://www.awwwards.com/)
-            * [X-energy | Nuclear Energy, Advanced Reactors & Fuel Design](https://x-energy.com/)
-        * Good and Bad Examples (load time)
-        * Bad
-            * [The Clove Club](https://thecloveclub.com/)
-        * Good
-            * [I am a wickedly fast loading page](https://varvy.com/pagespeed/wicked-fast.html)
+            * Good and bad examples (visual)
+                * Bad
+                    * [The World's Worst Website Ever!](https://www.theworldsworstwebsiteever.com/)
+                    * [Yale School of Art: Home](https://www.art.yale.edu/)
+                * Good
+                    * [Awwwards - Website Awards - Best Web Design Trends](https://www.awwwards.com/)
+                    * [X-energy | Nuclear Energy, Advanced Reactors & Fuel Design](https://x-energy.com/)
+            * Good and Bad Examples (load time)
+                * Bad
+                    * [The Clove Club](https://thecloveclub.com/)
+                * Good
+                    * [I am a wickedly fast loading page](https://varvy.com/pagespeed/wicked-fast.html)
     * Best Practices
         * [Tips for Organizing CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing)
     * Navigation
         * [\<li>, \<ul>, \<ol>](https://www.w3schools.com/html/html_lists.asp)
         * [Navbar](https://www.w3schools.com/css/css_navbar.asp)
-    * _Take Home Challenge - Create a new `<nav>` with 3 working hyperlink items in it._
+    * Take Home Challenge - Create a new `<nav>` with 3 working hyperlink items in it.
 
 * **Day 4**
     * Images
@@ -203,7 +203,7 @@ Virtual Curriculum
           ```
     * Wireframes
         * Moqups
-    * _Challenge - Create a Wireframe for your project._
+    * Take Home Challenge - Create a Wireframe for your project.
 
 #### Week 3
 * **Day 5**
@@ -229,7 +229,7 @@ Virtual Curriculum
         * [Background images](https://www.w3schools.com/cssref/pr_background-image.asp)
         * [Box shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
         * [Text shadow](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)
-    * _Take-home Challenge -_ 
+    * Take-home Challenge -
         * Using your daily challenge project, add the following properties to your site:
             * Border
             * Background-image
@@ -247,7 +247,7 @@ Virtual Curriculum
     * Styling Hyperlinks
         * Styles
         * States
-    * _Take-home Challenge - add another section to your page with 3 columns and add items to them and style the columns._
+    * Take-home Challenge - add another section to your page with 3 columns and add items to them and style the columns.
 
 #### Week 4
 * **Day 7**
@@ -261,15 +261,15 @@ Virtual Curriculum
         * [More details](https://www.ssh.com/ssh/protocol/)
         * Generate [SSH Key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
         * Add SSH Key to [GitHub](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
-        * _Daily Challenge: Create an SSH key and add it to your github account_
+        * Daily Challenge: Create an SSH key and add it to your github account
     * Github Repository
         * [New Repository](https://docs.github.com/en/github/getting-started-with-github/create-a-repo)
     * Initial Git Commands - Open your Git terminal
         * Git status
         * Git clone
-    * _Take-home Challenge - Create a repository in Github named “github-practice”_
-    * _Clone your repository using SSH_
-    * _BONUS: Add starter files and folders to your project folder_
+    * Take-home Challenge - Create a repository in Github named “github-practice”
+    * Clone your repository using SSH
+    * BONUS: Add starter files and folders to your project folder
 
 * **Day 8**
     * Take Home Review
