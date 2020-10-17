@@ -25,7 +25,7 @@ Virtual Curriculum
 ### Lessons
 
 #### Week 1
-* Day 1
+* **Day 1**
     * Introductions
         * Instructor
             * Intro
@@ -75,7 +75,7 @@ Virtual Curriculum
     * Take-Home Challenge - Crossword Puzzle
         * [https://puzzel.org/en/crossword/play?p=-MFUnjfQ45hgUCtn110G](https://puzzel.org/en/crossword/play?p=-MFUnjfQ45hgUCtn110G)
 
-* Day 2
+* **Day 2**
     * Take Home Review
     * More [HTML5](http://w3schools.com/html/html_intro.asp)
         * Void Elements (Self-closing Tags)
@@ -121,7 +121,7 @@ Virtual Curriculum
         * Bonus: make the boxes inline-block and different colors
 
 #### Week 2
-* Day 3
+* **Day 3**
     * Take Home Review
         * [https://codepen.io/GeekwiseAcademy/pen/rNemMoV](https://codepen.io/GeekwiseAcademy/pen/rNemMoV)
     * Selectors
@@ -159,7 +159,7 @@ Virtual Curriculum
         * [Navbar](https://www.w3schools.com/css/css_navbar.asp)
     * _Take Home Challenge - Create a new `<nav>` with 3 working hyperlink items in it._
 
-* Day 4 
+* **Day 4**
     * Images
         * [\<img>](https://www.w3schools.com/html/html_images.asp) tags
         * [File types](https://99designs.com/blog/tips/image-file-types/)
@@ -206,7 +206,7 @@ Virtual Curriculum
     * _Challenge - Create a Wireframe for your project._
 
 #### Week 3
-* Day 5
+* **Day 5**
     * Take Home Review
     * SEO
         * [Search Engine Optimization](https://moz.com/beginners-guide-to-seo/why-search-engine-marketing-is-necessary)
@@ -236,7 +236,7 @@ Virtual Curriculum
             * Box shadow
             * Text shadow 
 
-* Day 6
+* **Day 6**
     * Review take home
     * [Position Property](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
         * Relative vs Absolute
@@ -250,7 +250,7 @@ Virtual Curriculum
     * _Take-home Challenge - add another section to your page with 3 columns and add items to them and style the columns._
 
 #### Week 4
-* Day 7
+* **Day 7**
     * Git vs Github
         * Git Bash
             * [Download Git Bash](https://git-scm.com/downloads)
@@ -271,7 +271,7 @@ Virtual Curriculum
     * _Clone your repository using SSH_
     * _BONUS: Add starter files and folders to your project folder_
 
-* Day 8
+* **Day 8**
     * Take Home Review
     * Additional git commands 
         * `git config --global user.name "John Doe"`
@@ -286,7 +286,7 @@ Virtual Curriculum
     * Take Home Challenge: add an about page and contact page, link them all together in the Nav
 
 #### Week 5
-* Day 9
+* **Day 9**
     * Fonts
         * Interesting Read: [Font vs Typeface](https://snowball.digital/blog/what-is-the-difference-between-a-font-and-a-typeface)
         * [Google Fonts](https://fonts.google.com/)
@@ -322,7 +322,7 @@ Virtual Curriculum
         * copy the header and nav to all html pages
         * Push your work to github
 
-* Day 10 
+* **Day 10**
     * Take Home Review
     * Forms
         * [\<input>](https://www.w3schools.com/tags/tag_input.asp) fields
@@ -342,7 +342,7 @@ Virtual Curriculum
         * Add, commit, push your work to github
 
 #### Week 6
-* Day 11
+* **Day 11**
     * Take Home Review
     * Footers
         * [\<footer>](https://www.w3schools.com/tags/tag_footer.asp) tag
@@ -363,7 +363,7 @@ Virtual Curriculum
         * Complete your final project
         * Make sure your repository is up to date (add, commit, push)
 
-* Day 12
+* **Day 12**
     * Gh pages
         * Repo > settings > Turn on gh-pages for the master branch
     * Send me the link to your final project for presentations
