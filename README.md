@@ -223,6 +223,7 @@ Virtual Curriculum
             * css/style.css
             * Img
             * Recreate this wire frame:
+            * ![](./img/semantic_layout.png)
  
     * [Shorthand vs Multiple Properties](https://www.geeksforgeeks.org/css-shorthand-properties/)
         * [Border Property](https://www.w3schools.com/cssref/pr_border.asp)
