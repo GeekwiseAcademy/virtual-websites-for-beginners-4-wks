@@ -278,3 +278,59 @@ Virtual Curriculum
         * May need to set up git username and password link - git config
     * Github 
     * Take Home Challenge: add an about page and contact page, link them all together in the Nav
+
+### Week 5
+* Day 9
+    * Fonts
+        * Interesting Read: [Font vs Typeface](https://snowball.digital/blog/what-is-the-difference-between-a-font-and-a-typeface)
+        * [Google Fonts](https://fonts.google.com/)
+            * [Font-weight](https://www.w3schools.com/cssref/pr_font_weight.asp)
+            * [Serif vs San Serif](https://www.adobe.com/creativecloud/design/discover/serif-vs-sans-serif.html)
+            * [CDNs](https://www.imperva.com/learn/performance/what-is-cdn-how-it-works/)
+        * [text-alignment](https://www.w3schools.com/css/css_text_align.asp)
+        * [Line Height](https://www.w3schools.com/cssref/pr_dim_line-height.asp)
+        * [Letter Spacing](https://www.w3schools.com/cssref/pr_text_letter-spacing.asp)
+    * Daily Challenge:
+        * Create a new repository in Github called “final-project”
+        * Clone your repo
+        * Add the following to your final-project folder:
+            * Index.html
+            * About.html
+            * Contact.html
+            * Css folder
+                * Style.css
+            * Img folder
+        * Review Challenge
+            * Push your work to Github
+    * Icons
+        * [Font Awesome](https://fontawesome.com/)
+        * [Social Media Links](https://www.w3schools.com/howto/howto_css_social_media_buttons.asp)
+            * [Benefits](https://blog.milestoneinternet.com/getting-social/3-key-reasons-to-add-social-media-links-to-your-website/)
+            * Bonus: [Embedded buttons](https://blog.hubspot.com/blog/tabid/6307/bid/29544/the-ultimate-cheat-sheet-for-creating-social-media-buttons.aspx)
+    * Take Home Challenge:
+        * Start final project
+        * Link all the pages in your final-project
+        * Import at least 2 google fonts
+        * Import font awesome
+        * Create a header and nav
+        * copy the header and nav to all html pages
+        * Push your work to github
+
+* Day 10 
+    * Take Home Review
+    * Forms
+        * [\<input>](https://www.w3schools.com/tags/tag_input.asp) fields
+        * [\<button>](https://www.w3schools.com/tags/tag_button.asp)
+        * [How to build a form](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+    * Daily Challenge: 
+        * Create a contact form in your final project contact page
+    * Media Elements and Embeds
+        * [\<audio>](https://www.w3schools.com/tags/tag_audio.asp)
+            * Royalty-Free Music: [BenSound](https://www.bensound.com/)
+        * [\<video>](https://www.w3schools.com/html/html5_video.asp)
+            * [YouTube](https://www.youtube.com/)
+    * Take home: 
+        * continue working on your final-project
+        * Add a media element
+        * Add an embed element
+        * Add, commit, push your work to github
