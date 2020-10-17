@@ -334,3 +334,36 @@ Virtual Curriculum
         * Add a media element
         * Add an embed element
         * Add, commit, push your work to github
+
+### Week 6
+* Day 11
+    * Take Home Review
+    * Footers
+        * [\<footer>](https://www.w3schools.com/tags/tag_footer.asp) tag
+        * [Best practices and examples](https://fireart.studio/blog/10-best-examples-of-website-footer-designs/)
+        * [More examples](https://hookagency.com/website-footers/)
+    * Daily challenge: 
+        * Continue working on your final-project
+        * Create a footer 
+        * Copy it to all your pages
+        * Add, commit and push your changes
+    * Industry standards
+        * [Web development best practices](https://www.thinkful.com/blog/web-development-best-practices/)
+        * [Web design best practices](https://tillerdigital.com/blog/11-web-design-best-practices-for-2020/)
+    * Css Gradients
+        * [Gradient Backgrounds](https://www.w3schools.com/css/css3_gradients.asp)
+        * [Gradient generator](https://cssgradient.io/)
+    * Take Home challenge:
+        * Complete your final project
+        * Make sure your repository is up to date (add, commit, push)
+
+* Day 12
+    * Gh pages
+        * Repo > settings > Turn on gh-pages for the master branch
+    * Send me the link to your final project for presentations
+    * Presentations
+        * A few guidelines for tomorrow's Showcase:
+            * Place less emphasis on the content and focus more on the functionality and components of your website. (Ex: navbar, contact form, video embed, etc)
+            * Share your process and experience with the code. 
+            * Keep your presentation to 3 mins
+            * We will open for questions at the end of each presentation.
