@@ -242,3 +242,39 @@ Virtual Curriculum
         * Styles
         * States
     * _Take-home Challenge - add another section to your page with 3 columns and add items to them and style the columns._
+
+### Week 4
+* Day 7
+    * Git vs Github
+        * Git Bash
+            * [Download Git Bash](https://git-scm.com/downloads)
+        * What is Git? 
+        * Still need help? [GitHelp](https://jakeaguilar.github.io/GitHelp/)
+    * SSH Protocol
+        * How it works
+        * [More details](https://www.ssh.com/ssh/protocol/)
+        * Generate [SSH Key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+        * Add SSH Key to [GitHub](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+        * _Daily Challenge: Create an SSH key and add it to your github account_
+    * Github Repository
+        * [New Repository](https://docs.github.com/en/github/getting-started-with-github/create-a-repo)
+    * Initial Git Commands - Open your Git terminal
+        * Git status
+        * Git clone
+    * _Take-home Challenge - Create a repository in Github named “github-practice”_
+    * _Clone your repository using SSH_
+    * _BONUS: Add starter files and folders to your project folder_
+
+* Day 8
+    * Take Home Review
+    * Additional git commands 
+        * `git config --global user.name "John Doe"`
+        * `git config --global user.email johndoe@example.com`
+        * `git add .` - adds all of our code
+        * `git commit -m “commit message”` - this message will be specific to the changes you made in your code
+        * `git push`
+        * `git pull`
+    * Daily Challenge: Push your local code to your github practice repository
+        * May need to set up git username and password link - git config
+    * Github 
+    * Take Home Challenge: add an about page and contact page, link them all together in the Nav
