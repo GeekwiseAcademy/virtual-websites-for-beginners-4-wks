@@ -198,3 +198,47 @@ Virtual Curriculum
     * Wireframes
         * Moqups
     * _Challenge - Create a Wireframe for your project._
+
+### Week 3
+* Day 5
+    * Take Home Review
+    * SEO
+        * [Search Engine Optimization](https://moz.com/beginners-guide-to-seo/why-search-engine-marketing-is-necessary)
+        * [HTML Tags for SEO](https://neilpatel.com/blog/html-tags-for-seo/)
+    * Accessibility
+        * [HTML Guide to Accessibility](https://www.w3schools.com/html/html_accessibility.asp)
+        * [WCAG](https://www.w3.org/WAI/WCAG21/quickref/)
+        * [WCAG at a glance](https://www.w3.org/WAI/standards-guidelines/wcag/glance/)
+    * [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
+    * In-class Challenge:
+        * Create a new project directory
+        * Add folders/files
+            * Index.html
+            * css/style.css
+            * Img
+            * Recreate this wire frame:
+ 
+    * [Shorthand vs Multiple Properties](https://www.geeksforgeeks.org/css-shorthand-properties/)
+        * [Border Property](https://www.w3schools.com/cssref/pr_border.asp)
+        * [Background images](https://www.w3schools.com/cssref/pr_background-image.asp)
+        * [Box shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
+        * [Text shadow](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)
+    * _Take-home Challenge -_ 
+        * Using your daily challenge project, add the following properties to your site:
+            * Border
+            * Background-image
+            * Box shadow
+            * Text shadow 
+
+* Day 6
+    * Review take home
+    * [Position Property](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+        * Relative vs Absolute
+        * Sticky vs Fixed
+    * Using your Inspector
+        * Inspect Day 6 web page
+    * Daily Challenge: 
+    * Styling Hyperlinks
+        * Styles
+        * States
+    * _Take-home Challenge - add another section to your page with 3 columns and add items to them and style the columns._
