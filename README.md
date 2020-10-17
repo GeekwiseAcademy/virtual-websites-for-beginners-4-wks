@@ -11,6 +11,8 @@ Virtual Curriculum
 
 (Time estimates are suggestions)
 
+---
+
 ### Downloads in Orientation
 * VSCode
 * Extensions
@@ -18,7 +20,11 @@ Virtual Curriculum
     * Live Server
 * Slack
 
-### Week 1
+---
+
+### Lessons
+
+#### Week 1
 * Day 1
     * Introductions
         * Instructor
@@ -114,7 +120,7 @@ Virtual Curriculum
         * Stack 4 div elements of your favorite color (100px height/width) on the page using margin (use color formats, not names of colors). 
         * Bonus: make the boxes inline-block and different colors
 
-### Week 2
+#### Week 2
 * Day 3
     * Take Home Review
         * [https://codepen.io/GeekwiseAcademy/pen/rNemMoV](https://codepen.io/GeekwiseAcademy/pen/rNemMoV)
@@ -199,7 +205,7 @@ Virtual Curriculum
         * Moqups
     * _Challenge - Create a Wireframe for your project._
 
-### Week 3
+#### Week 3
 * Day 5
     * Take Home Review
     * SEO
@@ -243,7 +249,7 @@ Virtual Curriculum
         * States
     * _Take-home Challenge - add another section to your page with 3 columns and add items to them and style the columns._
 
-### Week 4
+#### Week 4
 * Day 7
     * Git vs Github
         * Git Bash
@@ -279,7 +285,7 @@ Virtual Curriculum
     * Github 
     * Take Home Challenge: add an about page and contact page, link them all together in the Nav
 
-### Week 5
+#### Week 5
 * Day 9
     * Fonts
         * Interesting Read: [Font vs Typeface](https://snowball.digital/blog/what-is-the-difference-between-a-font-and-a-typeface)
@@ -335,7 +341,7 @@ Virtual Curriculum
         * Add an embed element
         * Add, commit, push your work to github
 
-### Week 6
+#### Week 6
 * Day 11
     * Take Home Review
     * Footers
