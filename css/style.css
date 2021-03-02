@@ -10,7 +10,7 @@ body, html {
 }
 
 html {
-    background-color: #F7DA4D;
+    background-color: #EE3F5E;
 }
 
 main, aside {
@@ -24,11 +24,11 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #A52F23;
+    color: #7D2F4D;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #A52F23;
+    color: #7D2F4D;
 }
 
 p {
@@ -88,7 +88,7 @@ pre code {
 
 .highlight-block {
     background-color: yellow;
-    color: #A52F23;
+    color: #7D2F4D;
     animation: fade-in infinite 3s;
 }
 
@@ -117,7 +117,7 @@ pre code {
 
 .js-link:hover {
     cursor: pointer;
-    color: #A52F23;
+    color: #7D2F4D;
 }
 
 /* HEADER */
@@ -131,7 +131,6 @@ header {
 
 .logo {
     margin-left: 5em;
-    background-color: #F7DA4D;
     border-radius: 50%;
     height: 100px;
     width: 100px;
@@ -161,7 +160,7 @@ header {
 .navbar-light .navbar-nav .show>.nav-link,
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #A52F23;
+  color: #7D2F4D;
 }
 
 .img-med {
@@ -272,11 +271,11 @@ aside h2 {
 
 @keyframes color-swirl {
     from {
-        background-color: #FFFFFF;
+        /* background-color: #FFFFFF; */
         transform: rotate(0deg);
     }
     to {
-        background-color: #F7DA4D;
+        /* background-color: #F7DA4D; */
         transform: rotate(360deg);
     }
 }
