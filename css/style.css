@@ -78,10 +78,7 @@ ol {
 }
 
 pre {
-    background-color: #000;
     color: #fff;
-    display: flex;
-    align-items: center;
 }
 
 pre code {
