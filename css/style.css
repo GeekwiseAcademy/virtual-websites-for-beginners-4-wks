@@ -13,6 +13,7 @@ html {
     --primary-color: #7D2F4D;
 
     background-color: #EE3F5E;
+    scroll-padding-top: 116px; /* height of sticky header */
 }
 
 main, aside {
@@ -32,6 +33,12 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
+
+h2 > a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
 
 p {
   font-size: 1.2em;
