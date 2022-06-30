@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Websites for Beginners - Day One</title>
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/vs2015.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
   <header>
@@ -57,7 +59,7 @@
 
     <div class="row section"><!-- Concepts -->
       <aside class="col">
-        <h2>Concepts</h2>
+        <h2 id="concepts"><a href="#concepts">Concepts</a></h2>
       </aside>
       <main class="col-9">
         <ul class="points">
@@ -80,7 +82,7 @@
 
     <div class="row section"><!-- Introductions -->
       <aside class="col">
-        <h2>Introductions</h2>
+        <h2 id="introductions"><a href="#introductions">Introductions</a></h2>
       </aside>
       <main class="col-9">
         <ul class="points">
@@ -100,7 +102,7 @@
 
     <div class="row section"><!-- Computer Basics -->
       <aside class="col">
-        <h2>Computer Basics</h2>
+        <h2 id="computer-basics"><a href="#computer-basics">Computer Basics</a></h2>
       </aside>
       <main class="col-9">
         <ul class="points">
@@ -115,7 +117,7 @@
 
     <div class="row section"><!-- Web Basics -->
       <aside class="col">
-        <h2>Web Basics</h2>
+        <h2 id="web-basics"><a href="#web-basics">Web Basics</a></h2>
       </aside>
       <main class="col-9">
         <ul class="points">
@@ -134,43 +136,52 @@
 
     <div class="row section"><!-- Daily Challenge -->
       <aside class="col">
-        <h2>Daily Challenge</h2>
+        <h2 id="daily-challenge"><a href="#daily-challenge">Daily Challenge</a></h2>
       </aside>
       <main class="col-9">
-        <ul class="points">
+        <ol class="points">
           <li>Create a file in Visual Studio Code called <code>index.html</code></li>
           <li>Copy this challenge into your Visual Studio Code file</li>
           <li>
             <pre>
-              <code>
-  &lt;h1&gt;Keyboard Shortcuts&lt;/h1&gt;
+              <code class="language-html">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;title&gt;Keyboard Shortcuts&lt;title&gt;
+  &lt;head&gt;
 
-  &lt;p&gt;Use a search engine to find and fill out the following "Keyboard Shorcuts":&lt;/p&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Keyboard Shortcuts&lt;/h1&gt;
 
-  &lt;ul&gt;
-    &lt;!--   EXAMPLE --&gt;
-    &lt;li&gt;Save File: cmd/ctrl + s&lt;/li&gt;
-    &lt;!--   END EXAMPLE --&gt;
-    &lt;li&gt;Cut: ______&lt;/li&gt;
-    &lt;li&gt;Copy: ______&lt;/li&gt;
-    &lt;li&gt;Paste: ______&lt;/li&gt;
-    &lt;li&gt;Undo: ______&lt;/li&gt;
-    &lt;li&gt;Find Text: ______&lt;/li&gt;
-    &lt;li&gt;Select all text: ______&lt;/li&gt;
-  &lt;/ul&gt;
+    &lt;p&gt;Use a search engine to find and fill out the following "Keyboard Shortcuts":&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;!--   EXAMPLE --&gt;
+      &lt;li&gt;Save File: ⌘cmd + s | ctrl + s&lt;/li&gt;
+      &lt;!--   END EXAMPLE --&gt;
+      &lt;li&gt;Cut: ______&lt;/li&gt;
+      &lt;li&gt;Copy: ______&lt;/li&gt;
+      &lt;li&gt;Paste: ______&lt;/li&gt;
+      &lt;li&gt;Undo: ______&lt;/li&gt;
+      &lt;li&gt;Find Text: ______&lt;/li&gt;
+      &lt;li&gt;Select all text: ______&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;body&gt;
+&lt;/html&gt;
               </code>
             </pre>
           </li>
           <li>Fill out the shortcuts for each action</li>
           <li>Save your work</li>
           <li>Right click your code > "Open with Live Server" to view your work in the browser!</li>
-        </ul>
+        </ol>
       </main>
     </div><!-- end Daily Challenge -->
 
     <div class="row section"><!-- HTML -->
       <aside class="col">
-        <h2>HTML</h2>
+        <h2 id="html"><a href="#html">HTML</a></h2>
       </aside>
       <main class="col-9">
         <ul class="points">
@@ -181,19 +192,19 @@
 
     <div class="row section"><!-- HTML Syntax -->
       <aside class="col">
-        <h2>HTML Syntax</h2>
+        <h2 id="html-syntax"><a href="#html-syntax">HTML Syntax</a></h2>
       </aside>
       <main class="col-9">
-        <p>Tag Example</p>
+        <p>Tag Usage Example</p>
         <pre>
-          <code>&lt;tagname&gt;Content&lt;/tagname&gt;</code>
+          <code>&lt;element&gt;Content&lt;/element&gt;</code>
         </pre>
-        <p>Page Example</p>
+        <p>Basic Page Example</p>
         <pre>
           <code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
-        &lt;meta name = "viewport" content = "scale: 1:1" /&gt;
+        &lt;meta name="viewport" content="scale: 1:1" /&gt;
         &lt;title&gt;Page Title&lt;/title&gt;
     &lt;/head&gt;
     &lt;body&gt;
@@ -212,7 +223,7 @@
 
     <div class="row section"><!-- HTML Elements -->
       <aside class="col">
-        <h2>HTML Elements</h2>
+        <h2 id="html-elements"><a href="#html-elements">HTML Elements</a></h2>
       </aside>
       <main class="col-9">
         <pre>
@@ -234,7 +245,7 @@
 
     <div class="row section"><!-- HTML Attributes -->
       <aside class="col">
-        <h2>HTML Attributes</h2>
+      <h2 id="html-attributes"><a href="#html-attributes">HTML Attributes</a></h2>
       </aside>
       <main class="col-9">
         <pre>
@@ -254,7 +265,7 @@
 
     <div class="row section"><!-- HTML Comments -->
       <aside class="col">
-        <h2>HTML Comments</h2>
+        <h2 id="html-comments"><a href="#html-comments">HTML Comments</a></h2>
       </aside>
       <main class="col-9">
         <ul class="points">
@@ -268,7 +279,7 @@
 
     <div class="row section">
       <aside class="col">
-        <h2>Final Project Overview</h2>
+        <h2 id="final-project-overview"><a href="#final-project-overview">Final Project Overview</a></h2>
       </aside>
       <main class="col-9">
         <ul class="points">
@@ -279,15 +290,19 @@
 
     <div class="row section"><!-- HTML Take Home Challenge -->
       <aside class="col">
-        <h2>Take Home Challenge</h2>
+        <h2 id="take-home-challenge"><a href="#take-home-challenge">Take Home Challenge</a></h2>
       </aside>
       <main class="col-9">
-        <ul class="points">
+        <ol class="points">
           <li>Complete this <a href="https://puzzel.org/en/crossword/play?p=-MFUnjfQ45hgUCtn110G" target="_blank">Crossword Puzzle</a></li>
-        </ul>
+        </ol>
       </main>
     </div><!-- end Take Home Challenge -->
   </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>

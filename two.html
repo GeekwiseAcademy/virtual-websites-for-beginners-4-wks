@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Websites for Beginners - Day Two</title>
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/vs2015.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -108,7 +109,7 @@
         <h2 id="daily-challenge"><a href="#daily-challenge">Daily Challenge</a></h2>
       </aside>
       <main class="col-9">
-        <ul class="points">
+        <ol class="points">
           <li>Create a New Folder in your Desktop</li>
           <li>Open that folder in VS Code</li>
           <li>Create a new Visual Studio Code File in that folder</li>
@@ -122,7 +123,7 @@
           </ul>
           <li>Save your work!</li>
           <li>Right click your code > "Open with Live Server" to view your work in the browser!</li>
-        </ul>
+        </ol>
       </main>
     </div>
 
@@ -136,13 +137,14 @@
           <li><a href="https://www.quackit.com/css/tutorial/css_syntax.cfm" target="_blank">Syntax</a></li>
         </ul>
         <pre>
-          <code>selector { property: value; }</code>
+          <code class="language-css">selector { property: value; }</code>
         </pre>
         <ul class="points">
           <li>Readability</li>
         </ul>
       <pre>
-        <code>selector {
+        <code class="language-css">
+selector {
   property: value;
 }
 
@@ -177,7 +179,7 @@ selector2 {
         <h2 id="take-home-challenge"><a href="#take-home-challenge">Take Home Challenge</a></h2>
       </aside>
       <main class="col-9">
-        <ul class="points">
+        <ol class="points">
           <li>Create a new Visual Studio Code File</li>
           <li>Create 4 div elements as described:</li>
           <ul class="nested-points">
@@ -187,10 +189,14 @@ selector2 {
             <li><strong>BONUS: </strong>Display divs horizontally</li>
             <li><strong>BONUS: </strong>Give each div a different color</li>
           </ul>
-        </ul>
+        </ol>
       </main>
     </div>
   </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>

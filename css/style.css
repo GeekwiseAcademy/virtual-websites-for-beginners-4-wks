@@ -10,7 +10,10 @@ body, html {
 }
 
 html {
+    --primary-color: #7D2F4D;
+
     background-color: #EE3F5E;
+    scroll-padding-top: 116px; /* height of sticky header */
 }
 
 main, aside {
@@ -24,20 +27,29 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #7D2F4D;
+    color: var(--primary-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #7D2F4D;
+    color: var(--primary-color);
 }
+
+h2 > a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
 
 p {
   font-size: 1.2em;
 }
 
 .points {
-    list-style: none;
     font-size: 1.25em;
+}
+
+ul.points {
+    list-style: none;
 }
 
 ol {
@@ -66,10 +78,7 @@ ol {
 }
 
 pre {
-    background-color: #000;
     color: #fff;
-    display: flex;
-    align-items: center;
 }
 
 pre code {
@@ -88,7 +97,7 @@ pre code {
 
 .highlight-block {
     background-color: yellow;
-    color: #7D2F4D;
+    color: var(--primary-color);
     animation: fade-in infinite 3s;
 }
 
@@ -117,7 +126,7 @@ pre code {
 
 .js-link:hover {
     cursor: pointer;
-    color: #7D2F4D;
+    color: var(--primary-color);
 }
 
 /* HEADER */
@@ -160,7 +169,7 @@ header {
 .navbar-light .navbar-nav .show>.nav-link,
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #7D2F4D;
+  color: var(--primary-color);
 }
 
 .img-med {
