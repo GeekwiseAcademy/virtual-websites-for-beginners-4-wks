@@ -126,9 +126,9 @@
             <li>World Wide Web</li>
             <li><a href="https://edu.gcfglobal.org/en/computerbasics/understanding-the-cloud/1/" target="_blank">The Cloud</a></li>
           </ul>
-          <li><a href="https://www.computerhope.com/jargon/s/server.htm" target="_blank">Servers</a></li>
+          <li><a href="https://www.computerhope.com/jargon/s/server.htm" target="_blank">Servers</a> vs Clients</li>
           <li><a href="https://www.botify.com/blog/what-is-a-secure-website-https-vs-http" target="_blank">HTTP vs HTTPS</a></li>
-          <li><a href="https://www.digitaltrends.com/computing/what-is-ftp-and-how-do-i-use-it/" target="_blank">FTP</a></li>
+          <li><a href="https://www.digitaltrends.com/computing/what-is-ftp-and-how-do-i-use-it/" target="_blank">FTP</a> vs SFTP</li>
           <li><a href="https://www.geeksforgeeks.org/difference-between-search-engine-and-web-browser/" target="_blank">Browser vs Search Engine</a></li>
         </ul>
       </main>
@@ -195,13 +195,13 @@
         <h2 id="html-syntax"><a href="#html-syntax">HTML Syntax</a></h2>
       </aside>
       <main class="col-9">
-        <p>Tag Usage Example</p>
-        <pre>
-          <code>&lt;element&gt;Content&lt;/element&gt;</code>
-        </pre>
-        <p>Basic Page Example</p>
-        <pre>
-          <code>&lt;!DOCTYPE html&gt;
+        <h3>Tag Usage Example</h3>
+        <pre><code>&lt;element&gt;CONTENT&lt;/element&gt;</code></pre>
+
+        <p>CONTENT can be nothing, text, or more tags.</p>
+
+        <h3>Basic Page Example</h3>
+        <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
         &lt;meta name="viewport" content="scale: 1:1" /&gt;
@@ -216,8 +216,7 @@
         &lt;/div&gt;
     &lt;/body&gt;
 &lt;/html&gt;
-&lt;!-- end page example --&gt;</code>
-        </pre>
+&lt;!-- end page example --&gt;</code></pre>
       </main>
     </div><!-- end HTML Syntax -->
 
@@ -226,19 +225,17 @@
         <h2 id="html-elements"><a href="#html-elements">HTML Elements</a></h2>
       </aside>
       <main class="col-9">
-        <pre>
-          <code>&lt;h1&gt;Hello World!&lt;/h1&gt; (Heading 1)</code>
-        </pre>
+        <pre><code>&lt;h1&gt;Hello World!&lt;/h1&gt; (Heading Level 1)</code></pre>
         <ul class="points">
-          <li>More <a href="https://www.w3schools.com/html/html_elements.asp" target="_blank">Elements</a></li>
           <ul class="nested-points">
-            <li>&lt;!DOCTYPE html&gt;</li>
-            <li>&lt;html&gt;&lt;/html&gt;</li>
-            <li>&lt;head&gt;&lt;/head&gt;</li>
-            <li>&lt;title&gt;&lt;/title&gt;</li>
-            <li>&lt;body&gt;&lt;/body&gt;</li>
-            <li>&lt;p&gt;&lt;/p&gt;</li>
+            <li><code>&lt;!DOCTYPE html&gt;</code></li>
+            <li><code>&lt;html&gt;&lt;/html&gt;</code></li>
+            <li><code>&lt;head&gt;&lt;/head&gt;</code></li>
+            <li><code>&lt;title&gt;&lt;/title&gt;</code></li>
+            <li><code>&lt;body&gt;&lt;/body&gt;</code></li>
+            <li><code>&lt;p&gt;&lt;/p&gt;</code></li>
           </ul>
+          <li>More <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">Elements</a></li>
         </ul>
       </main>
     </div><!-- end HTML Elements -->
@@ -248,17 +245,26 @@
       <h2 id="html-attributes"><a href="#html-attributes">HTML Attributes</a></h2>
       </aside>
       <main class="col-9">
+        <p>Attribute Syntax</p>
+
+        <pre>
+          <code>attribute-name="attribute-value"</code>
+        </pre>
+
+        <p>Attribute Usage Example</p>
+
         <pre>
           <code>&lt;p title="I'm a tooltip!"&gt;Content&lt;/p&gt;</code>
         </pre>
         <ul class="points">
-          <li>More <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank">Attributes</a></li>
           <ul class="nested-points">
-            <li>width</li>
-            <li>height</li>
-            <li>alt</li>
-            <li>lang</li>
+            <li><code>width</code></li>
+            <li><code>height</code></li>
+            <li><code>alt</code></li>
+            <li><code>lang</code></li>
           </ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes" target="_blank">Global attributes</a></li>
+          <li>More <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank">Attributes</a> examples</li>
         </ul>
       </main>
     </div><!-- end HTML Attributes -->
