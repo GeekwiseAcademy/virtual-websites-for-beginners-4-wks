@@ -1,5 +1,37 @@
+
+html {
+    --primary-color: #7D2F4D;
+    --secondary-color: #1e2b4c;
+    --default-link-color: #dd4f62;
+    --default-background-color: white;
+    --default-text-color: black;
+    --header-background-color: #eeeeee;
+    --header-link-color: rgba(0,0,0,.55);
+
+    scroll-padding-top: 116px; /* height of sticky header */
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+    html {
+        --primary-color: #e79075;
+        --secondary-color: black;
+        --default-background-color: #282c34;
+        --default-text-color: white;
+        --header-background-color: #171a1f;
+        --header-link-color: #eee;
+    }
+}
+
+
+
+
 /* UNIVERSALS */
 body, html {
+    background: var(--default-background-color);
+    color: var(--default-text-color);
+
     padding: 0;
     margin: 0;
     position: relative;
@@ -9,19 +41,12 @@ body, html {
     bottom: 0;
 }
 
-html {
-    --primary-color: #7D2F4D;
-
-    background-color: #EE3F5E;
-    scroll-padding-top: 116px; /* height of sticky header */
-}
-
 main, aside {
     font-size: 1.5em;
 }
 
 a {
-    color: #333;
+    color: var(--default-link-color);
     font-weight: bold;
 }
 
@@ -107,6 +132,7 @@ pre code {
 }
 /* JS HELPERS */
 .header-fixed {
+    background: var(--header-background-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -116,6 +142,7 @@ pre code {
 }
 
 .header-relative {
+    background: var(--header-background-color);
     position: relative;
     animation: fade-in .4s ease-in;
 }
@@ -156,6 +183,10 @@ header {
     align-items: center;
 }
 
+.logo a img {
+    background: #fff;
+}
+
 .nav {
     font-weight: bold;
 }
@@ -163,6 +194,10 @@ header {
 .navbar-default {
     background-color: #eee;
     border: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--header-link-color);
 }
 
 .navbar-light .navbar-nav .nav-link.active,
