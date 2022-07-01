@@ -24,9 +24,6 @@ html {
     }
 }
 
-
-
-
 /* UNIVERSALS */
 body, html {
     background: var(--default-background-color);
@@ -41,7 +38,7 @@ body, html {
     bottom: 0;
 }
 
-main, aside {
+section, aside {
     font-size: 1.5em;
 }
 
@@ -239,7 +236,7 @@ header {
   margin-bottom: 1.5em;
 }
 
-.section main, .section aside{
+.section section, .section aside{
     margin-top: 2em;
 }
 
@@ -256,7 +253,7 @@ aside h2 {
     animation: from-top 1.5s ease-in-out;
 }
 
-.section main {
+.section section {
     animation: from-right 1.5s ease-in-out;
 }
 
