@@ -90,35 +90,33 @@
       </aside>
       <div class="col-9">
         <ul class="points">
-          <li><a href="https://youtu.be/wMMV5XQtWyg" target="_blank">What is Git? (Video)</a>
-            <ul class="nested-points">
-              <li><code>Git</code> is a Version Control System (VCS) installed on your computer that you can access through your terminal</li>
-            </ul>
-
-            <ul class="nested-points">
-              <li><a href="https://git-scm.com/downloads" target="_blank">Download Git and Git Bash</a>
-                <br>
-                <img src="img/git-option.png" style="width:400px; height:300px" alt="Git Option During Installation">
-              </li>
-              <li><em>**Make sure you check this option</em></li>
-              <li>Basic Terminal Commands:
-            <pre>
-              <code>
-      cd [folder-name]
-      cd ..
-      ls
-      ls -al (macOS)
-      dir (windows)
-              </code>
-            </pre>
-            </li>
-            </ul>
-          </li>
-          <li><a href="https://github.com" target="_blank">GitHub</a>
-            <ul class="nested-points">
-              <li><code>GitHub</code> is a code storage and sharing application built as a visual interface for Git. It's like Google Drive for developers.</li>
-            </ul>
-          </li>
+          <li><a href="https://youtu.be/wMMV5XQtWyg" target="_blank">What is Git? (Video)</a></li>
+          <ul class="nested-points">
+            <li><code>Git</code> is a Version Control System (VCS) installed on your computer that you can access through your terminal</li>
+          </ul>
+          <ul class="nested-points">
+            <li><a href="https://git-scm.com/downloads" target="_blank">Download Git and Git Bash</a></li>
+            <img src="img/git-option.png" style="width:400px; height:300px" alt="Git Option During Installation">
+            <li><em>**Make sure you check this option</em></li>
+            <li>Basic Terminal Commands:</li>
+          <pre><code>cd [folder-name]
+cd ..
+cd ~
+pwd
+ls
+ls -al (macOS)
+dir (windows)
+rm [file-name]
+rm -rf [folder-name]
+cp [file-name] [file-name-copy]
+mv [file-name] [new-file-name]
+mkdir [folder-name]
+touch [file-name]</code></pre>
+          </ul>
+          <li><a href="https://github.com" target="_blank">GitHub</a></li>
+          <ul class="nested-points">
+            <li><code>GitHub</code> is a code storage and sharing application built as a visual interface for Git. It's like Google Drive for developers.</li>
+          </ul>
           <li><a href="https://jakeaguilar.github.io/GitHelp/" target="_blank">Resource: GitHelp page</a> by <a href="https://github.com/jakeaguilar" target="_blank">jakeaguilar</a></li>
           <li><a href="https://gist.github.com/kid-on-github/7c2f9a7ca2d6ff67c56cd6f59ac5815b" target="_blank">Resource: Git Bash Cheatsheet</a> by <a href="https://gist.github.com/kid-on-github" target="_blank">kid-on-github</a></li>
         </ul>
@@ -127,7 +125,7 @@
 
     <section class="row section">
       <aside class="col">
-        <h2 id="ssh-protocol"><a href="ssh-protocol">SSH Protocol</a></h2>
+        <h2 id="ssh-protocol"><a href="#ssh-protocol">SSH Protocol</a></h2>
       </aside>
       <div class="col-9">
         <ul class="points">
@@ -168,12 +166,11 @@
         <h2 id="intro-to-git-commands"><a href="#intro-to-git-commands">Intro to Git Commands</a></h2>
       </aside>
       <div class="col-9">
-        <pre>
-          <code>
-      git status
-      git clone [repo-ssh-link]
-          </code>
-        </pre>
+        <pre><code class="language-plaintext">git --version (get current installed git version)
+git status
+git clone [repo-ssh-link] (copies a repo)
+git init (initializes git tracking in current folder)
+rm -rf .git (removes git tracking from current folder)</code></pre>
       </div>
     </section>
 
@@ -190,6 +187,12 @@
       </div>
     </section>
   </main>
+
+  <div class="pagination-nav">
+    <a href="six.html">Previous</a>
+    <a href="eight.html">Next</a>
+  </div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
   <script>hljs.highlightAll();</script>
 

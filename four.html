@@ -132,13 +132,20 @@
 
     <section class="row section">
       <aside class="col">
-        <h2 id="float-and-clear"><a href="float-and-clear">Float and Clear</a></h2>
+        <h2 id="float-and-clear"><a href="#float-and-clear">Float and Clear</a></h2>
       </aside>
       <div class="col-9">
         <ul class="points">
           <li><a href="https://www.w3schools.com/css/css_float.asp" target="_blank">Float Property</a></li>
           <li><a href="https://css-tricks.com/almanac/properties/c/clear/" target="_blank">Clear Property</a></li>
-          <li><a href="https://www.youtube.com/watch?v=xara4Z1b18I&t=8s">Use them together (Video)</a></li>
+          <li><a href="https://www.youtube.com/watch?v=xara4Z1b18I&t=8s" target="_blank">Use them together (Video)</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context" target="_blank">Block Formatting Context</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Intro_to_formatting_contexts#bfc_creation_examples" target="_blank">Problems with Floats</a>            <ul>
+              <li>were originally intended for image alignment</li>
+              <li>were <strong>not</strong> intended to be use to create layouts, at the time there weren't many options to create complex layouts so people got creative</li>
+              <li>today we have better and simpler alternatives like <code>flex</code> (1-dimension) or <code>grid</code> (2-dimensions) layouts (not covered in this course)</li>
+            </ul>
+          </li>
         </ul>
       </div>
     </section>
@@ -226,6 +233,12 @@
       </div>
     </section>
   </main>
+
+  <div class="pagination-nav">
+    <a href="three.html">Previous</a>
+    <a href="five.html">Next</a>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/script.js"></script>
