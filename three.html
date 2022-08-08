@@ -64,8 +64,9 @@
           <li>Take Home Review</li>
           <li>Display Property</li>
           <li>Visibility Property</li>
+          <li>Opacity Property</li>
           <li>Daily Challenge</li>
-          <li>Branding & Design Best Practices</li>
+          <li>Branding &amp; Design Best Practices</li>
           <li>Lists and Navigation</li>
           <li>Take Home Challenge</li>
         </ul>
@@ -89,13 +90,63 @@
       </aside>
       <main class="col-9">
         <ul class="points">
-          <li><a href="https://www.w3schools.com/cssref/sel_element.asp" target="_blank">Elements as Selectors</a></li>
-          <li><a href="https://www.w3schools.com/cssref/sel_element_comma.asp" target="_blank">Comma Separator</a></li>
-          <li><a href="https://www.w3schools.com/cssref/sel_element_element.asp" target="_blank">Nested Elements</a></li>
-          <li><a href="https://www.w3schools.com/cssref/sel_class.asp" target="_blank">.Classes</a></li>
-          <li><a href="https://www.w3schools.com/cssref/sel_id.asp" target="_blank">#IDs</a></li>
-          <li><a href="https://www.w3schools.com/cssref/sel_all.asp" target="_blank">*All</a></li>
-          <li><a href="https://dev.to/ibrahima92/6-powerful-css-selectors-that-will-really-help-you-write-clean-css-4bab" target="_blank">More Selectors</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors" target="_blank">Universal</a> syntax: <code>* { ... }</code></li>
+          <li><a href="https://www.w3schools.com/cssref/sel_element.asp" target="_blank">Element (aka Type)</a> syntax: <code>element { ... }</code></li>
+          <li><a href="https://www.w3schools.com/cssref/sel_class.asp" target="_blank">Classes</a> syntax: <code>.class1 { ... }</code></li>
+          <li><a href="https://www.w3schools.com/cssref/sel_id.asp" target="_blank">IDs</a> syntax: <code>#id1 { ... }</code></li>
+        </ul>
+
+        <details>
+          <summary>⚠️ Advanced</summary>
+
+          <ul class="points">
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors" target="_blank">Attributes</a> syntax: <code>[attr1="val1"] { ... }</code></li>
+            <li><a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">Pseudo-elements</a> syntax: <code>::pseudo-element { ... }</code></li>
+            <li><a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">Pseudo-class</a> syntax: <code>:pseudo-class { ... }</code></li>
+            <li><a href="https://www.w3schools.com/cssref/sel_element_comma.asp" target="_blank">Grouping</a> syntax: <code>selector1, selector2, selector3 { ... }</code></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#combinators" target="_blank">Combinators</a> <code>"space"</code>, <code>&gt;</code>, <code>~</code>, and <code>+</code></li>
+          </ul>
+        </details>
+      </main>
+    </div>
+
+    <div class="row section">
+      <aside class="col">
+        <h2 id="inline-vs-block"><a href="#inline-vs-block">Inline vs Block Elements</a></h2>
+      </aside>
+      <main class="col-9">
+        <ul class="points">
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout" target="_blank">Normal flow</a></li>
+          <li>Block elements
+            <ul>
+              <li>think vertical</li>
+              <li>stack up like pancakes</li>
+              <li>don't want any elements to their left or right side</li>
+              <li>take the full width available</li>
+              <li>height is dictated by the content</li>
+              <li>css properties: width, height, margin, and padding will work</li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#elements" target="_blank">default block elements</a></li>
+            </ul>
+          </li>
+          <li>Inline elements
+            <ul>
+              <li>think horizontal</li>
+              <li>share the horizontal space as much as possible, if room runs out then they wrap around to next line. Similar to a movie theater
+                being filled row by row as more people come in
+              </li>
+              <li>the width and height is dictated by the content</li>
+              <li>css properties: width, height, margin, and padding will <strong>NOT</strong> work as expected</li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#list_of_inline_elements" target="_blank">default inline elements</a></li>
+            </ul>
+          </li>
+          <li>
+            Inline-Block elements
+            <ul>
+              <li>a hybrid between block and inline elements</li>
+              <li>css properties: width, height, margin, and padding will work as expected</li>
+              <li><a href="https://css-tricks.com/fighting-the-space-between-inline-block-elements/" target="_blank">suffer from phantom space</a></li>
+            </ul>
+          </li>
         </ul>
       </main>
     </div>
@@ -114,17 +165,6 @@
 
     <div class="row section">
       <aside class="col">
-        <h2 id="visibility-property"><a href="visibility-property">Visibility Property</a></h2>
-      </aside>
-      <main class="col-9">
-        <ul class="points">
-          <li><a href="https://www.w3schools.com/cssref/pr_class_visibility.asp" target="_blank">Common Uses</a></li>
-        </ul>
-      </main>
-    </div>
-
-    <div class="row section">
-      <aside class="col">
         <h2 id="daily-challenge"><a href="#daily-challenge">Daily Challenge</a></h2>
       </aside>
       <main class="col-9">
@@ -137,6 +177,29 @@
           <li>Right click your code > "Open with Live Server" to view your work in the browser!</li>
           <li>Example: <img class="img-fluid" src="img/checkerboard.png" alt="Example of the finished checkerboard pattern"></li>
         </ol>
+      </main>
+    </div>
+
+    <div class="row section">
+      <aside class="col">
+        <h2 id="visibility-property"><a href="#visibility-property">Visibility Property</a></h2>
+      </aside>
+      <main class="col-9">
+        <ul class="points">
+          <li><a href="https://www.w3schools.com/cssref/pr_class_visibility.asp" target="_blank">Common Uses</a></li>
+        </ul>
+      </main>
+    </div>
+
+
+    <div class="row section">
+      <aside class="col">
+        <h2 id="opacity-property"><a href="#opacity-property">Opacity Property</a></h2>
+      </aside>
+      <main class="col-9">
+        <ul class="points">
+          <li><a href="https://www.w3schools.com/cssref/css3_pr_opacity.asp" target="_blank">Common Uses</a></li>
+        </ul>
       </main>
     </div>
 
@@ -171,7 +234,13 @@
       </aside>
       <main class="col-9">
         <ul class="points">
-          <li><a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">Lists</a></li>
+          <li><a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">Lists</a>
+            <ul>
+              <li>ul vs li</li>
+              <li><a href="https://www.w3schools.com/css/css_list.asp" target="_blank">List item styling</a></li>
+              <li><a href="https://www.w3schools.com/cssref/sel_marker.asp" target="_blank"><code>::marker</code></a></li>
+            </ul>
+          </li>
           <li><a href="https://www.w3schools.com/css/css_navbar.asp" target="_blank">Navbar</a></li>
         </ul>
       </main>
@@ -190,6 +259,11 @@
         </ol>
       </main>
     </div>
+  </div>
+
+  <div class="pagination-nav">
+    <a href="two.html">Previous</a>
+    <a href="four.html">Next</a>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

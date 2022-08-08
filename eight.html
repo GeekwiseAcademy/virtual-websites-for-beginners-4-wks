@@ -87,18 +87,16 @@
         <h2 id="additional-git-commands"><a href="#additional-git-commands">Additional Git Commands</a></h2>
       </aside>
       <main class="col-9">
-        <pre>
-          <code>
-  git config --global user.name "John Doe"
-  git config --global user.email "johndoe@example.com"
+        <pre><code>git config --global user.name "John Doe"
+git config --global user.email "johndoe@example.com"
 
-  git add [file_name] // (adds a specific file to the staging area)
-  git add . // (adds all files to the staging area)
-  git commit -m "commit message" // (this message will describe changes)
-  git push // (upload your code to GitHub)
-  git pull // (download changes from GitHub)
-          </code>
-        </pre>
+git add [file_name] // (adds a specific file to the staging area)
+git add . // (adds all files in current directory and those nested to the staging area)
+git commit -m "commit message" // (this message will describe changes)
+git commit // (this will open an editor typically Vim by default which is for advanced users)
+git log // (lists all commits aka the commit history)
+git push // (upload your code to GitHub)
+git pull // (download changes from GitHub)</code></pre>
       </main>
     </div>
 
@@ -116,9 +114,21 @@
       </main>
     </div>
 
+
     <div class="row section">
       <aside class="col">
-        <h2 id="columns"><a href="#columns">Columns</a></h2>
+        <h2 id="text-columns"><a href="#text-columns">Text Columns</a></h2>
+      </aside>
+      <main class="col-9">
+        <ul class="points">
+          <li><a href="https://www.w3schools.com/css/css3_multiple_columns.asp" target="_blank">Splits up text into columns</a></li>
+        </ul>
+      </main>
+    </div>
+
+    <div class="row section">
+      <aside class="col">
+        <h2 id="layout-columns"><a href="#layout-columns">Layout Columns</a></h2>
       </aside>
       <main class="col-9">
         <ul class="points">
@@ -142,6 +152,11 @@
         </ol>
       </main>
     </div>
+  </div>
+
+  <div class="pagination-nav">
+    <a href="seven.html">Previous</a>
+    <a href="nine.html">Next</a>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
