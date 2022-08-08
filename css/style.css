@@ -265,6 +265,15 @@ aside h2 {
     margin-top: 1em;
 }
 
+details {
+    background-color: #eee;
+    padding: 10px;
+}
+
+summary {
+    font-weight: bold;
+}
+
 .hide-answer {
   display: none;
 }
