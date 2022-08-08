@@ -236,8 +236,8 @@ header {
   margin-bottom: 1.5em;
 }
 
-.section section, .section aside{
-    margin-top: 2em;
+.section > div, .section aside {
+    margin-top: 2rem;
 }
 
 aside {
