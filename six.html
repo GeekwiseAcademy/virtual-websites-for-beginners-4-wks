@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Websites for Beginners - Day Six</title>
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/vs2015.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -89,8 +90,13 @@
       <div class="col-9">
         <ul class="points">
           <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="_blank">Examples of CSS Position Property</a>
-            <ul class="nested-points">
-              <li><strong>Note:</strong> <code class="language-markup">Relative</code> and <code class="language-markup">sticky</code> elements will retain the space at it's original placement on the page. <br> <code class="language-markup">Absolute</code> and <code class="language-markup">fixed</code> elements will not retain the space at it's original placement on the page.</li>
+            <ul>
+              <li><code>position: static; /* default */</code>
+              <li><code class="language-markup">relative</code> and <code class="language-markup">sticky</code> elements will retain the space at its original placement on the page.</li>
+              <li><code class="language-markup">absolute</code> and <code class="language-markup">fixed</code> elements will not retain the space at its original placement on the page.</li></li>
+              <li>commonly used with <code>top</code>, <code>right</code>, <code>bottom</code>, and/or <code>left</code> properties (or <code>inset</code> shorthand)</li>
+              <li>top, left, right, and bottom has no effect when set to <code>static</code></li>
+              <li>for <code>sticky</code> typically top value is required to function i.e. <code>top: 0;</code></li>
             </ul>
           </li>
         </ul>
@@ -138,7 +144,35 @@
       </aside>
       <div class="col-9">
         <ul class="points">
-          <li><a href="https://www.w3schools.com/css/css_link.asp" target="_blank">Hyperlink Styles and States</a></li>
+          <li><a href="https://www.w3schools.com/css/css_link.asp" target="_blank">Hyperlink Styles and States</a>
+
+            <pre>
+              <code class="language-css">a {
+  /* default */
+}
+
+a:link {
+  /* unvisited links */
+}
+
+a:visited {
+  /* visited links */
+}
+
+a:focus {
+  /* when in focus by tabbing */
+}
+
+a:hover {
+  /* when hovered over */
+}
+
+a:active {
+  /* when clicked on */
+}</code>
+            </pre>
+
+          </li>
         </ul>
       </div>
     </section>
@@ -175,6 +209,9 @@
   https://www.w3schools.com/charsets/ref_emoji.asp
 
   ================================================-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>

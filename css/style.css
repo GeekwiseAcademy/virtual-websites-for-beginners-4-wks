@@ -128,6 +128,7 @@ pre {
 
 pre code {
     padding: .5em;
+    font-size: 20px;
 }
 
 .highlight-circle {
