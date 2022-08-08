@@ -99,15 +99,19 @@
             <img src="img/git-option.png" style="width:400px; height:300px" alt="Git Option During Installation">
             <li><em>**Make sure you check this option</em></li>
             <li>Basic Terminal Commands:</li>
-          <pre>
-            <code>
-    cd [folder-name]
-    cd ..
-    ls
-    ls -al (macOS)
-    dir (windows)
-            </code>
-          </pre>
+          <pre><code>cd [folder-name]
+cd ..
+cd ~
+pwd
+ls
+ls -al (macOS)
+dir (windows)
+rm [file-name]
+rm -rf [folder-name]
+cp [file-name] [file-name-copy]
+mv [file-name] [new-file-name]
+mkdir [folder-name]
+touch [file-name]</code></pre>
           </ul>
           <li><a href="https://github.com" target="_blank">GitHub</a></li>
           <ul class="nested-points">
@@ -121,7 +125,7 @@
 
     <div class="row section">
       <aside class="col">
-        <h2 id="ssh-protocol"><a href="ssh-protocol">SSH Protocol</a></h2>
+        <h2 id="ssh-protocol"><a href="#ssh-protocol">SSH Protocol</a></h2>
       </aside>
       <main class="col-9">
         <ul class="points">
@@ -162,12 +166,11 @@
         <h2 id="intro-to-git-commands"><a href="#intro-to-git-commands">Intro to Git Commands</a></h2>
       </aside>
       <main class="col-9">
-        <pre>
-          <code>
-      git status
-      git clone [repo-ssh-link]
-          </code>
-        </pre>
+        <pre><code class="language-plaintext">git --version (get current installed git version)
+git status
+git clone [repo-ssh-link] (copies a repo)
+git init (initializes git tracking in current folder)
+rm -rf .git (removes git tracking from current folder)</code></pre>
       </main>
     </div>
 
