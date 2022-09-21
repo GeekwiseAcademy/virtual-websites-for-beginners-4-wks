@@ -264,7 +264,7 @@ aside h2 {
 }
 
 details {
-    background-color: #eee;
+    background-color: var(--default-background-color);
     padding: 10px;
 }
 
